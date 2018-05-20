@@ -1,8 +1,8 @@
 .blackbox {
     position: relative;
-    width: 20vw;
-    height: 20vw;
-    line-height: 30vw;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
     text-align: center;
     color: #252B37;
     background-color: #151823;
@@ -11,7 +11,7 @@
   .blackbox:after {
     position: absolute;
     content: "";
-    top: 5vw;
+    top: 2vw;
     left: 0;
     right: 0;
     z-index: -1;
@@ -19,13 +19,13 @@
     width: 100%;
     margin: 0 auto;
     transform: scale(0.75);
-    -webkit-filter: blur(5vw);
-    -moz-filter: blur(5vw);
-    -ms-filter: blur(5vw);
-    filter: blur(5vw);
+    -webkit-filter: blur(3vw);
+    -moz-filter: blur(3vw);
+    -ms-filter: blur(3vw);
+    filter: blur(3vw);
     background: linear-gradient(270deg, #0fffc1, #7e0fff);
     background-size: 200% 200%;
-    animation: animateGlow 10s ease infinite;
+    animation: animateGlow 5s ease infinite;
   }
   @keyframes animateGlow {
     0% {
