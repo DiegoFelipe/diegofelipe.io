@@ -19,7 +19,7 @@ Style Index
     8. Team Section
     9. Why Us/Features Section
     10. Facts Section
-    11. Pricing Section 
+    11. Pricing Section
     12. Contact Section
     13. Footer
 */
@@ -86,8 +86,8 @@ Style Index
     background: url(AjaxLoader.gif) no-repeat center center
 }
 /*****/
-/* 
- *  Owl Carousel CSS3 Transitions 
+/*
+ *  Owl Carousel CSS3 Transitions
  *  v1.3.2
  */
 
@@ -252,7 +252,7 @@ Style Index
 
 
 /* =================================== */
-/*	Basic Style 
+/*	Basic Style
 /* =================================== */
 
 body {
@@ -362,7 +362,7 @@ owl-theme .owl-controls .owl-page span{
     transform: scale(1);
 }
 
-.shadow { 
+.shadow {
     -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     -moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     -o-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -553,7 +553,7 @@ owl-theme .owl-controls .owl-page span{
     height: 8px;
     width: 8px;
 }
-.carousel-indicators .active { 
+.carousel-indicators .active {
     background-color: #ffee5c;
     height: 8px;
     width: 8px
@@ -584,7 +584,7 @@ owl-theme .owl-controls .owl-page span{
 .flexslider {
     border: none;
     border-radius: 0;
-    margin: 0 auto;	
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -669,10 +669,14 @@ owl-theme .owl-controls .owl-page span{
 .service-item:hover .service-icon:after{ transform: rotate(-90deg); bottom: -25px }
 
 .service-desc { position: relative }
-
+figure {
+    padding-right: .8rem;
+    padding-left: .8rem;
+}
 /*=========================================
      Works Section
 ==========================================*/
+#works { background: linear-gradient(#000000, #011627); }
 
 .work-filter { margin-bottom: 35px }
 
@@ -867,7 +871,7 @@ ul.features li span.fa {
 }
 
 .parallax-overlay {
-    
+
     padding: 70px 0;
 }
 
@@ -940,7 +944,7 @@ ul.features li span.fa {
 .owl-theme .owl-controls .owl-page.active span{ background-color: #ffee5c }
 
 /*=========================================
-        Pricing Section 
+        Pricing Section
 ==========================================*/
 .pricingTable{
     margin-top: 90px;
@@ -994,7 +998,7 @@ ul.features li span.fa {
     border: 1px solid #2b2c30;
 }
 
-@media (min-width: 992px) and (max-width: 1199px){ .pricingTable:before { top: -13%; } } 
+@media (min-width: 992px) and (max-width: 1199px){ .pricingTable:before { top: -13%; } }
 
 /*=========================================
         Contact Section
@@ -1057,7 +1061,7 @@ label.error {
 #map_canvas {height: 215px;  width: 100% }
 
 /*=========================================
-        Footer 
+        Footer
 ==========================================*/
 
 .footer h6 {
