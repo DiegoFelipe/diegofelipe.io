@@ -1110,3 +1110,11 @@ label.error {
     right: 25px;
     z-index: 9;
 }
+
+/****
+  Esconde a seção de habilidades em celulares, só mostra de tablets pra cima
+*/
+@media screen and (max-width: 760px) {
+  .habilidades { display: none; }
+  li  + .habilidades-menu { display: none; }
+}
