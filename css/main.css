@@ -1112,7 +1112,8 @@ label.error {
 }
 
 /****
-  Esconde a seção de habilidades em celulares, só mostra de tablets pra cima
+  Esconde a seção de habilidades em celulares, só mostra de tablets pra cima asdsadasdasdas
+
 */
 @media screen and (max-width: 760px) {
   .habilidades { display: none; }
